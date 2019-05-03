@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.mood4dance.hu [NC]
+RewriteRule ^(.*)$ https://mood4dance.hu/$1 [L,R=301]
+
+Redirect 301 /mood4dance.hu/index.php/hu/ https://mood4dance.hu/index.html
+Redirect 301 /mood4dance.hu/index.php/hu/miert-mi https://mood4dance.hu/index.html
+Redirect 301 /mood4dance.hu/index.php/hu/a-mood-for-dance-zenekar-videoi https://mood4dance.hu/index.html
+Redirect 301 /mood4dance.hu/index.php/hu/rolunk https://mood4dance.hu/index.html
+Redirect 301 /mood4dance.hu/index.php/hu/vendegkonyv https://mood4dance.hu/index.html
+Redirect 301 /mood4dance.hu/index.php/hu/szolgaltatasok https://mood4dance.hu/index.html
+Redirect 301 /Redirect 301 /mood4dance.hu/index.php/hu/ https://mood4dance.hu/index.html https://mood4dance.hu/index.html
+Redirect 301 /mood4dance.hu/index.php/hu/eskuvoi-tippek https://mood4dance.hu/index.html
+Redirect 301 /mood4dance.hu/index.php/hu/kapcsolat https://mood4dance.hu/index.html
